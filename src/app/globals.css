@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  @apply w-full max-w-full;
+}
+
+body {
+  @apply overflow-x-clip bg-slate-50 text-slate-900;
+}
+
+img,
+video,
+canvas,
+svg {
+  @apply max-w-full;
+}
+
+a {
+  @apply text-brand-700 hover:text-brand-800;
+}
